@@ -9,7 +9,7 @@ export default siteConfig({
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Roy Saucedo Blog',
+  name: 'Roy Saucedo',
   domain: 'nextjs-notion-starter-kit.transitivebullsh.it',
   author: 'Roy Saucedo',
 
