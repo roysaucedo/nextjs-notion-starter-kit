@@ -20,6 +20,7 @@ export default siteConfig({
   twitter: 'royasaucedo',
   github: 'roysaucedo',
   linkedin: 'roysaucedo',
+  youtube: 'channel/UCSkkIddd50SReiAR1eP38bQ',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: 'channel/UCSkkIddd50SReiAR1eP38bQ', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
