@@ -125,7 +125,7 @@ export default async function OGImage(req: NextRequest) {
 
             {pageInfo.detail && (
               <div style={{ fontSize: 32, opacity: 0.6 }}>
-<!--                 {pageInfo.detail} -->
+
               </div>
             )}
           </div>
