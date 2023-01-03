@@ -387,3 +387,7 @@
 .notion-collection-header-title {
   font-size: 1.875em;
 }
+
+.notion-collection-header {
+  display: none;
+}
