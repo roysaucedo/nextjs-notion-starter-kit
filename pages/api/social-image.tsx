@@ -109,9 +109,7 @@ export default async function OGImage(req: NextRequest) {
               textAlign: 'center'
             }}
           >
-            {pageInfo.detail && (
-              <div style={{ fontSize: 32, opacity: 0 }}>{pageInfo.detail}</div>
-            )}
+            
 
             <div
               style={{
@@ -123,11 +121,7 @@ export default async function OGImage(req: NextRequest) {
               {pageInfo.title}
             </div>
 
-            {pageInfo.detail && (
-              <div style={{ fontSize: 32, opacity: 0.6 }}>
-
-              </div>
-            )}
+            
           </div>
         </div>
 
