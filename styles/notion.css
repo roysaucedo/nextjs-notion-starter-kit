@@ -15,6 +15,7 @@
 .notion-page {
   padding-bottom: calc(max(5vh, 32px)) !important;
   line-height: 1.65;
+  background-color: #0D1213;
 }
 
 .index-page {
