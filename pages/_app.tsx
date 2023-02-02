@@ -19,6 +19,8 @@ import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
 
+import Script from 'next/script'
+
 import { bootstrap } from '@/lib/bootstrap-client'
 import {
   fathomConfig,
@@ -63,3 +65,16 @@ export default function App({ Component, pageProps }: AppProps) {
 
   return <Component {...pageProps} />
 }
+<Script 
+  strategy="afterInteractive" 
+  src="https://www.googletagmanager.com/gtag/js?id=G-WX4Z5Y8TGN"
+ />
+
+<Script id="google-analytics" strategy="afterInteractive"
+  {'
+      window.dataLayer = window.dataLayer || [];
+     function gtag(){dataLayer.push(arguments);}
+     gtag('js', new Date());
+     gtag('config', 'G-WX4Z5Y8TGN');
+   '}
+ />
