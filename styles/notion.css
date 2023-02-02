@@ -391,3 +391,7 @@
 .notion-collection-header {
   display: none;
 }
+
+.medium-zoom-image {
+  border-radius: 10px;
+}
