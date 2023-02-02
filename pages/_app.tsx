@@ -19,8 +19,6 @@ import 'styles/notion.css'
 // global style overrides for prism theme (optional)
 import 'styles/prism-theme.css'
 
-import Script from 'next/script'
-
 import { bootstrap } from '@/lib/bootstrap-client'
 import {
   fathomConfig,
