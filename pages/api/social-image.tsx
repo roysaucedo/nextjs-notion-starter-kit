@@ -118,7 +118,7 @@ export default async function OGImage(req: NextRequest) {
                 fontFamily: 'Inter'
               }}
             >
-              
+              Page Title
             </div>
 
             
