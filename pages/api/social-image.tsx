@@ -144,7 +144,7 @@ export default async function OGImage(req: NextRequest) {
               style={{
                 width: '100%',
                 height: '100%'
-                // transform: 'scale(1.04)'
+                transform: 'scale(1.04)'
               }}
             />
           </div>
