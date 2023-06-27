@@ -111,15 +111,7 @@ export default async function OGImage(req: NextRequest) {
           >
             
 
-            <div
-              style={{
-                fontSize: 70,
-                fontWeight: 700,
-                fontFamily: 'Inter'
-              }}
-            >
-              Page Title
-            </div>
+            
 
             
           </div>
